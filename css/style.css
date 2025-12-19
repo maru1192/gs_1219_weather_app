@@ -1,0 +1,63 @@
+.wrap {
+    margin: 20px;
+}
+
+.period {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.field label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+#from,
+#to {
+    padding: 6px;
+}
+
+#city{
+    padding: 10px;
+}
+
+.btn {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background: #777;
+    color: #fff;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+.tableTitle{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#dailyTable{
+    margin: 0 auto;
+
+}

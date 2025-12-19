@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>お天気アプリ</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="period">
+            <div class="field">
+                <label>都市名</label>
+                <input id="city" type="text" placeholder="例：東京 / 金沢" />
+            </div>
+
+            <div class="field">
+                <label>開始日</label>
+                <input id="from" type="date" />
+            </div>
+
+            <div class="field">
+                <label>終了日</label>
+                <input id="to" type="date" />
+            </div>
+
+            <button id="loadBtn" class="btn">表示</button>
+        </div>
+    </div>
+
+    <section class="card">
+        <h2 class="tableTitle">日別一覧</h2>
+        <div class="tableWrap">
+            <table id="dailyTable">
+                <thead>
+                    <tr>
+                        <th>日付</th>
+                        <th>最高(℃)</th>
+                        <th>最低(℃)</th>
+                        <th>降水(mm)</th>
+                        <th>降雪量(cm)</th>
+                        <th>積雪深 最大(cm)</th>
+                    </tr>
+                </thead>
+
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
